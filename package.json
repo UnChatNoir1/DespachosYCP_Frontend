@@ -1,0 +1,59 @@
+{
+  "name": "pasantia_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonexport": "^3.2.0",
+    "mdb-react-ui-kit": "^4.2.0",
+    "mongoose": "^6.6.1",
+    "prop-types": "^15.8.1",
+    "query-string": "^7.1.1",
+    "ra-data-json-server": "^4.4.0",
+    "ra-data-simple-rest": "^4.4.0",
+    "ra-ui-materialui": "^4.5.0",
+    "react-admin": "^4.4.0",
+    "react-admin-import-csv": "^4.0.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dropzone": "^14.2.3",
+    "react-query": "^3.39.2",
+    "styled-components": "^5.3.5",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
