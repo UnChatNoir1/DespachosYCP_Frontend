@@ -46,7 +46,7 @@ export const PostFilterForm = () => {
                 values.embarque= { $gte: values.fecha_inicial, $lte: values.fecha_final }
             }
         }*/
-        console.log(values);
+        //console.log(values);
         /* */
         if (Object.keys(values).length > 0) {
             setFilters(values);

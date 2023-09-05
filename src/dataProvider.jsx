@@ -72,11 +72,11 @@ import jsonServerProvider from "ra-data-json-server";
 import { Show } from 'ra-ui-materialui';
 import { HttpError, httpClient } from 'react-admin';
 
-const dataProvider = jsonServerProvider(/*'http://localhost:3000/api'*/'https://despachosYCP-api.onrender.com');
+const dataProvider = jsonServerProvider(/*'http://localhost:3000/api'*/'https://despachosYCP-api.onrender.com/api');
 const myDataProvider = {
   ...dataProvider,
   update: (resource, params) => {
-    console.log(params)
+    //console.log(params)
     if(params.meta.usuario_id !== 0){
       return Promise.reject(
         new HttpError("No posees los permisos necesarios para editar información.", 401, null)
