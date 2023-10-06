@@ -1,6 +1,6 @@
 {
   "name": "pasantia_frontend",
-  "homepage": "https://ycp.org.uy/despachos",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
