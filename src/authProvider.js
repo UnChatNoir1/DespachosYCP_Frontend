@@ -1,6 +1,6 @@
 const authProvider = {
   login: ({ username, password }) => {
-    const request = new Request('https://ggargano.zapto.org:3000/api/authenticate', {
+    const request = new Request('http://localhost:3000/api/authenticate', {
       method: 'POST',
       body: JSON.stringify({ username, password }),
       headers: new Headers({ 'Content-Type': 'application/json' }),
