@@ -72,7 +72,7 @@ import jsonServerProvider from "ra-data-json-server";
 import { Show } from 'ra-ui-materialui';
 import { HttpError, httpClient } from 'react-admin';
 
-const dataProvider = jsonServerProvider(/*'http://localhost:3000/api'*/'http://localhost:3000/api');
+const dataProvider = jsonServerProvider(/*'http://localhost:3000/api'*/'http://ggargano.zapto.org:3000/api');
 const myDataProvider = {
   ...dataProvider,
   update: (resource, params) => {
